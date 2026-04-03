@@ -18,8 +18,8 @@ export default function Footer() {
             />
             <p className="text-beige-400/40 text-sm leading-relaxed font-[var(--font-inter)] font-light max-w-xs">
               Advocacia especializada em Direito de Família, Previdenciário e
-              Civil. Atendimento humanizado e personalizado para proteger seus
-              direitos.
+              Contratos Cíveis. Atendimento humanizado e personalizado para
+              proteger seus direitos.
             </p>
           </div>
 

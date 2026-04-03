@@ -67,7 +67,7 @@ export default function About() {
 
             <p className="text-beige-200/60 text-lg leading-relaxed font-[var(--font-inter)] font-light">
               A Dra. Ludmila Morais é advogada especializada em Direito de
-              Família, Previdenciário e Civil, dedicada a oferecer um
+              Família, Previdenciário e Contratos Cíveis, dedicada a oferecer um
               atendimento jurídico humanizado e personalizado. Cada caso é
               tratado com a atenção e o cuidado que merece.
             </p>

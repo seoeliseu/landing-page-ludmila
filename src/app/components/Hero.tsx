@@ -55,13 +55,13 @@ export default function Hero() {
           </h1>
           <p className="text-beige-200/60 text-lg lg:text-xl leading-relaxed max-w-xl font-[var(--font-inter)] font-light">
             Sua família, seus direitos, seu futuro. Atuação especializada em
-            Direito de Família, Previdenciário e Civil com atendimento
+            Direito de Família, Previdenciário e Contratos Cíveis com atendimento
             humanizado e dedicação em cada caso.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5562982750549"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-beige-600 hover:bg-beige-500 text-dark-900 font-semibold tracking-wider uppercase text-sm rounded-sm transition-all duration-300 hover:shadow-xl hover:shadow-beige-600/20 hover:-translate-y-0.5"
