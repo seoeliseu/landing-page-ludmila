@@ -53,7 +53,7 @@ export default function Footer() {
               Informações
             </h4>
             <div className="space-y-3 text-beige-400/40 text-sm font-[var(--font-inter)]">
-              <p>OAB/XX 000.000</p>
+              <p>OAB/GO 76.030</p>
               <p>Atendimento presencial e online</p>
               <p>Seg - Sex: 9h às 18h</p>
             </div>
@@ -91,7 +91,7 @@ export default function Footer() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/5500000000000"
+        href="https://wa.me/5562982750549"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-600 hover:bg-green-500 rounded-full flex items-center justify-center shadow-2xl shadow-green-600/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1"

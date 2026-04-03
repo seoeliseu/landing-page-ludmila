@@ -44,7 +44,7 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5562982750549"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center justify-center gap-3 px-10 py-5 bg-beige-600 hover:bg-beige-500 text-dark-900 font-semibold tracking-wider uppercase text-sm rounded-sm transition-all duration-300 hover:shadow-2xl hover:shadow-beige-600/30 hover:-translate-y-1"
