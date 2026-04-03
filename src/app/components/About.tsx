@@ -38,7 +38,7 @@ export default function About() {
           <div className="relative">
             <div className="relative w-full aspect-[4/5] max-w-md mx-auto lg:mx-0 rounded-sm overflow-hidden">
               <Image
-                src="/persona.png"
+                src="/persona-2.jpeg"
                 alt="Dra. Ludmila Morais"
                 fill
                 className="object-cover"

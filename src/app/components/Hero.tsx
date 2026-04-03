@@ -90,7 +90,7 @@ export default function Hero() {
             <div className="absolute -inset-4 bg-gradient-to-br from-beige-500/20 to-transparent rounded-sm blur-xl" />
             <div className="relative w-[420px] h-[520px] rounded-sm overflow-hidden shadow-2xl shadow-black/40">
               <Image
-                src="/persona.png"
+                src="/persona-1.jpeg"
                 alt="Dra. Ludmila Morais - Advogada"
                 fill
                 className="object-cover object-top"
