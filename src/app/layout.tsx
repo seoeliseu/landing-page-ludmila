@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Ludmila Morais | Advocacia e Consultoria Jurídica",
   description:
-    "Advocacia especializada em Direito de Família, Previdenciário e Civil. Divórcio, Guarda, Pensão, Inventário, Aposentadorias, INSS e Contratos. Atendimento humanizado e personalizado.",
+    "Advocacia especializada em Direito de Família, Previdenciário e Contratos Cíveis. Divórcio, Guarda, Pensão, Inventário, Aposentadorias, INSS e Contratos. Atendimento humanizado e personalizado.",
   keywords: [
     "advogada",
     "direito de família",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ludmila Morais | Advocacia e Consultoria Jurídica",
     description:
-      "Advocacia especializada em Direito de Família, Previdenciário e Civil. Atendimento humanizado e personalizado.",
+      "Advocacia especializada em Direito de Família, Previdenciário e Contratos Cíveis. Atendimento humanizado e personalizado.",
     type: "website",
     locale: "pt_BR",
   },
