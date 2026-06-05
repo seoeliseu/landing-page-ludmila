@@ -108,12 +108,13 @@ export default function PracticeAreas() {
           }`}
         >
           {/* Image */}
-          <div className="relative min-h-[340px] lg:min-h-full rounded-sm overflow-hidden">
+          <div className="relative aspect-[3/4] sm:aspect-[16/11] lg:aspect-auto lg:min-h-full rounded-sm overflow-hidden">
             <Image
               src="/areas.jpg"
               alt="Ludmila Morais, advogada"
               fill
-              className="object-cover object-top"
+              sizes="(max-width: 1024px) 100vw, 40vw"
+              className="object-cover object-[center_18%] lg:object-top"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-dark-900/70 via-transparent to-transparent" />
             <span className="absolute bottom-6 left-6 inline-flex w-fit items-center gap-2 text-beige-200 text-xs tracking-[0.2em] uppercase font-[var(--font-inter)] border border-beige-300/30 bg-dark-900/40 backdrop-blur-sm rounded-full px-4 py-1.5">
@@ -126,9 +127,11 @@ export default function PracticeAreas() {
             {principais.map((area) => (
               <div
                 key={area.title}
-                className="relative glass-beige rounded-sm p-8 flex flex-col"
+                className="group relative glass-beige rounded-sm p-8 flex flex-col transition-all duration-500 hover:-translate-y-1.5 hover:border-beige-400/40 hover:shadow-2xl hover:shadow-beige-500/10"
               >
-                <div className="text-beige-300 mb-6">{area.icon}</div>
+                <div className="text-beige-300 mb-6 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3">
+                  {area.icon}
+                </div>
                 <h3 className="text-2xl font-light mb-5 text-gradient">
                   {area.title}
                 </h3>
@@ -143,6 +146,7 @@ export default function PracticeAreas() {
                     </li>
                   ))}
                 </ul>
+                <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-gradient-to-r from-beige-400 to-beige-200 group-hover:w-full transition-all duration-500" />
               </div>
             ))}
           </div>
