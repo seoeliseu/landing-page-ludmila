@@ -38,8 +38,8 @@ export default function About() {
           <div className="relative">
             <div className="relative w-full aspect-[4/5] max-w-md mx-auto lg:mx-0 rounded-sm overflow-hidden">
               <Image
-                src="/persona-2.jpeg"
-                alt="Dra. Ludmila Morais"
+                src="/sobre.jpg"
+                alt="Ludmila Morais, advogada"
                 fill
                 className="object-cover"
               />
@@ -54,46 +54,40 @@ export default function About() {
             <div>
               <div className="line-accent mb-6" />
               <p className="text-beige-400 text-sm tracking-[0.3em] uppercase font-[var(--font-inter)] mb-4">
-                Sobre a Advogada
+                Apresentação
               </p>
               <h2 className="text-4xl lg:text-5xl font-light leading-tight">
-                Compromisso com a{" "}
+                Orientação clara,{" "}
                 <span className="text-gradient italic font-medium">
-                  justiça
+                  estratégica
                 </span>{" "}
-                e seus direitos
+                e segura
               </h2>
             </div>
 
             <p className="text-beige-200/60 text-lg leading-relaxed font-[var(--font-inter)] font-light">
-              A Dra. Ludmila Morais é advogada especializada em Direito de
-              Família, Previdenciário e Contratos Cíveis, dedicada a oferecer um
-              atendimento jurídico humanizado e personalizado. Cada caso é
-              tratado com a atenção e o cuidado que merece.
+              Atendimento focado em oferecer orientação clara, estratégica e
+              segura, com análise individual de cada caso.
             </p>
 
             <p className="text-beige-200/60 text-lg leading-relaxed font-[var(--font-inter)] font-light">
-              Com formação sólida e experiência comprovada, atua na defesa dos
-              interesses de seus clientes com ética, transparência e
-              comprometimento — valores que são a base de toda a sua prática
-              jurídica.
+              Atuação voltada à resolução de demandas jurídicas com
+              responsabilidade, clareza e estratégia. Atendimento
+              predominantemente online, com praticidade e acessibilidade.
             </p>
 
             <div className="grid grid-cols-3 gap-6 pt-6">
               {[
-                { number: "684+", label: "Seguidores" },
-                { number: "100%", label: "Dedicação" },
-                { number: "3", label: "Áreas" },
-              ].map((stat) => (
+                "Análise individual de cada caso",
+                "Atendimento predominantemente online",
+                "Foco em Família e Sucessões",
+              ].map((item) => (
                 <div
-                  key={stat.label}
-                  className="text-center lg:text-left border-t border-beige-500/20 pt-4"
+                  key={item}
+                  className="border-t border-beige-500/20 pt-4"
                 >
-                  <p className="text-3xl lg:text-4xl text-gradient font-light">
-                    {stat.number}
-                  </p>
-                  <p className="text-beige-400/60 text-xs tracking-widest uppercase mt-1 font-[var(--font-inter)]">
-                    {stat.label}
+                  <p className="text-beige-200/70 text-sm leading-snug font-[var(--font-inter)] font-light">
+                    {item}
                   </p>
                 </div>
               ))}

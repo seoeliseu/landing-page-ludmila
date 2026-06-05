@@ -9,9 +9,9 @@ const differentials = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
       </svg>
     ),
-    title: "Atendimento Humanizado",
+    title: "Atendimento claro e direto",
     description:
-      "Cada cliente é único. Ouvimos com atenção e cuidamos de cada caso com empatia e respeito.",
+      "Comunicação objetiva, sem juridiquês, para que você compreenda cada etapa da sua demanda.",
   },
   {
     icon: (
@@ -19,9 +19,9 @@ const differentials = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
       </svg>
     ),
-    title: "Agilidade e Eficiência",
+    title: "Análise estratégica de cada caso",
     description:
-      "Processos conduzidos com celeridade e precisão, sem abrir mão da qualidade técnica.",
+      "Estudo individual da sua situação para definir o caminho jurídico mais adequado.",
   },
   {
     icon: (
@@ -29,9 +29,9 @@ const differentials = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
       </svg>
     ),
-    title: "Transparência Total",
+    title: "Atuação personalizada",
     description:
-      "Informamos cada etapa do processo, sem surpresas. Você sempre saberá onde está seu caso.",
+      "Acompanhamento próximo, ajustado à realidade e aos objetivos de cada cliente.",
   },
   {
     icon: (
@@ -39,9 +39,9 @@ const differentials = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.745 3.745 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
       </svg>
     ),
-    title: "Ética e Compromisso",
+    title: "Atuação integrada com suporte especializado",
     description:
-      "Atuação pautada nos mais altos padrões éticos da advocacia, com comprometimento total com seu caso.",
+      "Quando necessário, o caso conta com o apoio de profissionais especializados na demanda.",
   },
 ];
 
@@ -71,12 +71,12 @@ export default function Differentials() {
         >
           <div className="line-accent mx-auto mb-6" />
           <p className="text-beige-400 text-sm tracking-[0.3em] uppercase font-[var(--font-inter)] mb-4">
-            Por que nos escolher
+            Diferenciais
           </p>
           <h2 className="text-4xl lg:text-5xl font-light leading-tight mb-6">
-            O que nos torna{" "}
+            Como conduzo{" "}
             <span className="text-gradient italic font-medium">
-              diferentes
+              cada caso
             </span>
           </h2>
         </div>

@@ -7,9 +7,10 @@ const navLinks = [
   { href: "#inicio", label: "Início" },
   { href: "#sobre", label: "Sobre" },
   { href: "#areas", label: "Áreas de Atuação" },
-  { href: "#depoimentos", label: "Depoimentos" },
   { href: "#contato", label: "Contato" },
 ];
+
+const whatsappUrl = "https://wa.me/5562982750549";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -38,11 +39,11 @@ export default function Header() {
           }`}
         >
           <Image
-            src="/logo-transparente.png"
+            src="/logo-lm-gold.png"
             alt="Ludmila Morais - Advocacia e Consultoria Jurídica"
-            width={160}
-            height={48}
-            className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
+            width={200}
+            height={60}
+            className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
             priority
           />
         </a>
@@ -61,7 +62,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://wa.me/5500000000000"
+            href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 px-6 py-2.5 bg-beige-600 hover:bg-beige-500 text-dark-900 text-sm font-semibold tracking-wider uppercase rounded-sm transition-all duration-300 hover:shadow-lg hover:shadow-beige-600/20"
@@ -112,7 +113,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://wa.me/5500000000000"
+            href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 px-8 py-3 bg-beige-600 hover:bg-beige-500 text-dark-900 text-sm font-semibold tracking-wider uppercase rounded-sm transition-all duration-300"

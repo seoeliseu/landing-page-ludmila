@@ -19,24 +19,23 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Ludmila Morais | Advocacia e Consultoria Jurídica",
   description:
-    "Advocacia especializada em Direito de Família, Previdenciário e Contratos Cíveis. Divórcio, Guarda, Pensão, Inventário, Aposentadorias, INSS e Contratos. Atendimento humanizado e personalizado.",
+    "Atuação em Direito de Família e Sucessões, com atuação ampliada em Previdenciário, Civil e Criminal mediante suporte especializado. Orientação jurídica com clareza, estratégia e segurança.",
   keywords: [
     "advogada",
     "direito de família",
-    "previdenciário",
+    "sucessões",
+    "inventário",
     "divórcio",
     "guarda",
-    "pensão",
-    "inventário",
-    "aposentadoria",
+    "pensão alimentícia",
+    "previdenciário",
     "INSS",
-    "contratos",
     "Ludmila Morais",
   ],
   openGraph: {
     title: "Ludmila Morais | Advocacia e Consultoria Jurídica",
     description:
-      "Advocacia especializada em Direito de Família, Previdenciário e Contratos Cíveis. Atendimento humanizado e personalizado.",
+      "Atuação em Direito de Família e Sucessões. Orientação jurídica com clareza, estratégia e segurança.",
     type: "website",
     locale: "pt_BR",
   },

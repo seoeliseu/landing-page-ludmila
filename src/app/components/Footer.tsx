@@ -10,16 +10,16 @@ export default function Footer() {
           {/* Logo & Description */}
           <div>
             <Image
-              src="/logo-transparente.png"
+              src="/logo-lm-white.png"
               alt="Ludmila Morais - Advocacia e Consultoria Jurídica"
-              width={180}
-              height={56}
-              className="h-12 w-auto mb-6"
+              width={200}
+              height={64}
+              className="h-16 w-auto mb-6"
             />
             <p className="text-beige-400/40 text-sm leading-relaxed font-[var(--font-inter)] font-light max-w-xs">
-              Advocacia especializada em Direito de Família, Previdenciário e
-              Contratos Cíveis. Atendimento humanizado e personalizado para
-              proteger seus direitos.
+              Atuação em Direito de Família e Sucessões, com atuação complementar
+              em Previdenciário, Civil e Criminal mediante suporte especializado.
+              Orientação jurídica com clareza, estratégia e segurança.
             </p>
           </div>
 
@@ -33,7 +33,6 @@ export default function Footer() {
                 { href: "#inicio", label: "Início" },
                 { href: "#sobre", label: "Sobre" },
                 { href: "#areas", label: "Áreas de Atuação" },
-                { href: "#depoimentos", label: "Depoimentos" },
                 { href: "#contato", label: "Contato" },
               ].map((link) => (
                 <a

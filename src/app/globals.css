@@ -1,28 +1,28 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #0a0a0a;
-  --color-foreground: #f5f0eb;
-  --color-beige-50: #faf7f2;
-  --color-beige-100: #f5f0eb;
-  --color-beige-200: #e8ddd0;
-  --color-beige-300: #d4c4ae;
-  --color-beige-400: #c2a988;
-  --color-beige-500: #b59468;
-  --color-beige-600: #a07a4e;
-  --color-beige-700: #856440;
-  --color-beige-800: #6b5035;
-  --color-beige-900: #55402b;
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-beige-50: #faf4e8;
+  --color-beige-100: #f1e6cf;
+  --color-beige-200: #e4d0a4;
+  --color-beige-300: #d9bd87;
+  --color-beige-400: #cdac79;
+  --color-beige-500: #bd9760;
+  --color-beige-600: #a37f4b;
+  --color-beige-700: #82643b;
+  --color-beige-800: #5e482b;
+  --color-beige-900: #3d2f1c;
   --color-dark-50: #f5f5f5;
   --color-dark-100: #e5e5e5;
   --color-dark-200: #cccccc;
   --color-dark-300: #999999;
   --color-dark-400: #666666;
-  --color-dark-500: #3d3d3d;
-  --color-dark-600: #2a2a2a;
-  --color-dark-700: #1f1f1f;
-  --color-dark-800: #141414;
-  --color-dark-900: #0a0a0a;
+  --color-dark-500: #333333;
+  --color-dark-600: #1a1a1a;
+  --color-dark-700: #121212;
+  --color-dark-800: #080808;
+  --color-dark-900: #000000;
   --font-sans: var(--font-cormorant-garamond);
   --font-body: var(--font-inter);
 
@@ -42,7 +42,7 @@ html {
 
 body {
   background: var(--color-dark-900);
-  color: var(--color-beige-100);
+  color: #f5efe2;
   font-family: var(--font-body), system-ui, sans-serif;
   overflow-x: hidden;
 }
@@ -141,9 +141,9 @@ body {
 }
 
 .glass-beige {
-  background: rgba(181, 148, 104, 0.08);
+  background: rgba(205, 172, 121, 0.08);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(181, 148, 104, 0.12);
+  border: 1px solid rgba(205, 172, 121, 0.18);
 }
 
 /* Gradient text */
