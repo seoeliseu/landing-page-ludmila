@@ -80,7 +80,7 @@ export default function About() {
               {[
                 "Análise individual de cada caso",
                 "Atendimento predominantemente online",
-                "Foco em Família e Sucessões",
+                "Foco em Previdenciário, Família e Sucessões",
               ].map((item) => (
                 <div
                   key={item}

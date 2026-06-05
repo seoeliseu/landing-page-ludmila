@@ -3,25 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
-const principal = {
-  title: "Famílias e Sucessões",
-  subtitle: "Área principal de atuação",
-  items: [
-    "Divórcio",
-    "União estável",
-    "Guarda",
-    "Convivência",
-    "Pensão alimentícia",
-    "Interdição",
-    "Curatela",
-    "Inventário",
-    "Alvará judicial",
-  ],
-  description:
-    "Atuação central do escritório, com acompanhamento próximo e análise individual de cada caso em Direito de Família e Sucessões.",
-};
-
-const complementares = [
+const principais = [
   {
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.2}>
@@ -31,6 +13,28 @@ const complementares = [
     title: "Direito Previdenciário",
     items: ["Aposentadorias", "Benefícios do INSS", "Planejamento previdenciário"],
   },
+  {
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+      </svg>
+    ),
+    title: "Famílias e Sucessões",
+    items: [
+      "Divórcio",
+      "União estável",
+      "Guarda",
+      "Convivência",
+      "Pensão alimentícia",
+      "Interdição",
+      "Curatela",
+      "Inventário",
+      "Alvará judicial",
+    ],
+  },
+];
+
+const complementares = [
   {
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.2}>
@@ -88,54 +92,59 @@ export default function PracticeAreas() {
             Áreas de Atuação
           </p>
           <h2 className="text-4xl lg:text-5xl font-light leading-tight mb-6">
-            Foco em Família e{" "}
+            Foco em Previdenciário, Família e{" "}
             <span className="text-gradient italic font-medium">Sucessões</span>
           </h2>
           <p className="text-beige-200/50 text-lg font-[var(--font-inter)] font-light">
-            Atuação principal em Família e Sucessões, com atuação complementar
-            estruturada em outras áreas do Direito.
+            Atuação principal em Previdenciário, Família e Sucessões, com atuação
+            complementar estruturada em outras áreas do Direito.
           </p>
         </div>
 
-        {/* Featured: principal */}
+        {/* Featured: principais */}
         <div
-          className={`relative glass-beige rounded-sm overflow-hidden mb-12 grid lg:grid-cols-2 transition-all duration-1000 ${
+          className={`grid lg:grid-cols-[0.85fr_1.15fr] gap-8 mb-12 transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
           {/* Image */}
-          <div className="relative min-h-[320px] lg:min-h-full">
+          <div className="relative min-h-[340px] lg:min-h-full rounded-sm overflow-hidden">
             <Image
               src="/areas.jpg"
               alt="Ludmila Morais, advogada"
               fill
               className="object-cover object-top"
             />
-            <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-dark-900/70 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-dark-900/70 via-transparent to-transparent" />
+            <span className="absolute bottom-6 left-6 inline-flex w-fit items-center gap-2 text-beige-200 text-xs tracking-[0.2em] uppercase font-[var(--font-inter)] border border-beige-300/30 bg-dark-900/40 backdrop-blur-sm rounded-full px-4 py-1.5">
+              Áreas principais
+            </span>
           </div>
 
-          {/* Content */}
-          <div className="p-8 lg:p-12 flex flex-col justify-center">
-            <span className="inline-flex w-fit items-center gap-2 text-beige-300 text-xs tracking-[0.2em] uppercase font-[var(--font-inter)] border border-beige-500/30 rounded-full px-4 py-1.5 mb-6">
-              {principal.subtitle}
-            </span>
-            <h3 className="text-3xl lg:text-4xl font-light mb-4 text-gradient">
-              {principal.title}
-            </h3>
-            <p className="text-beige-200/60 text-base leading-relaxed font-[var(--font-inter)] font-light mb-8 max-w-md">
-              {principal.description}
-            </p>
-            <ul className="grid grid-cols-2 gap-x-6 gap-y-3">
-              {principal.items.map((item) => (
-                <li
-                  key={item}
-                  className="flex items-center gap-3 text-beige-200/70 text-sm font-[var(--font-inter)]"
-                >
-                  <span className="w-1 h-1 bg-beige-400 rounded-full flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
+          {/* Two principal cards */}
+          <div className="grid sm:grid-cols-2 gap-8">
+            {principais.map((area) => (
+              <div
+                key={area.title}
+                className="relative glass-beige rounded-sm p-8 flex flex-col"
+              >
+                <div className="text-beige-300 mb-6">{area.icon}</div>
+                <h3 className="text-2xl font-light mb-5 text-gradient">
+                  {area.title}
+                </h3>
+                <ul className="space-y-2.5">
+                  {area.items.map((item) => (
+                    <li
+                      key={item}
+                      className="flex items-center gap-3 text-beige-200/70 text-sm font-[var(--font-inter)]"
+                    >
+                      <span className="w-1 h-1 bg-beige-400 rounded-full flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -145,7 +154,7 @@ export default function PracticeAreas() {
         </p>
 
         {/* Complementary cards */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {complementares.map((area, index) => (
             <div
               key={area.title}

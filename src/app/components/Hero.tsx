@@ -37,7 +37,7 @@ export default function Hero() {
             priority
           />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light leading-[1.1] tracking-tight">
-            Atuação em Direito de{" "}
+            Atuação em Direito Previdenciário, de{" "}
             <span className="text-gradient font-medium italic">
               Família e Sucessões
             </span>
@@ -91,10 +91,10 @@ export default function Hero() {
             {/* Floating badge */}
             <div className="absolute -bottom-6 -left-6 glass-beige rounded-sm px-6 py-4 animate-float">
               <p className="text-beige-300 text-xs tracking-widest uppercase font-[var(--font-inter)]">
-                Área principal
+                Áreas principais
               </p>
               <p className="text-beige-100 text-lg font-medium mt-1">
-                Família & Sucessões
+                Previdenciário · Família & Sucessões
               </p>
             </div>
           </div>

@@ -17,9 +17,10 @@ export default function Footer() {
               className="h-16 w-auto mb-6"
             />
             <p className="text-beige-400/40 text-sm leading-relaxed font-[var(--font-inter)] font-light max-w-xs">
-              Atuação em Direito de Família e Sucessões, com atuação complementar
-              em Previdenciário, Civil e Criminal mediante suporte especializado.
-              Orientação jurídica com clareza, estratégia e segurança.
+              Atuação em Direito Previdenciário, de Família e Sucessões, com
+              atuação complementar em Civil e Criminal mediante suporte
+              especializado. Orientação jurídica com clareza, estratégia e
+              segurança.
             </p>
           </div>
 
