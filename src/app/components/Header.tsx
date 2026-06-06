@@ -41,9 +41,9 @@ export default function Header() {
           <Image
             src="/logo-lm-gold.png"
             alt="Ludmila Morais - Advocacia e Consultoria Jurídica"
-            width={200}
-            height={60}
-            className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
+            width={372}
+            height={258}
+            className="h-11 w-auto transition-transform duration-300 group-hover:scale-105"
             priority
           />
         </a>

@@ -31,9 +31,9 @@ export default function Hero() {
           <Image
             src="/logo-lm-gold.png"
             alt="Ludmila Morais — Advocacia e Consultoria Jurídica"
-            width={360}
-            height={200}
-            className="h-36 lg:h-44 w-auto -ml-2"
+            width={372}
+            height={258}
+            className="h-28 lg:h-32 w-auto -ml-2"
             priority
           />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light leading-[1.1] tracking-tight">

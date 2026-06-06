@@ -10,10 +10,10 @@ export default function Footer() {
           {/* Logo & Description */}
           <div>
             <Image
-              src="/logo-lm-white.png"
+              src="/logo-lm-gold.png"
               alt="Ludmila Morais - Advocacia e Consultoria Jurídica"
-              width={200}
-              height={64}
+              width={372}
+              height={258}
               className="h-16 w-auto mb-6"
             />
             <p className="text-beige-400/40 text-sm leading-relaxed font-[var(--font-inter)] font-light max-w-xs">
