@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import Brand from "./Brand";
 
 const navLinks = [
   { href: "#inicio", label: "Início" },
@@ -38,12 +38,9 @@ export default function Header() {
             scrolled ? "opacity-100 translate-y-0 w-auto md:mr-8" : "opacity-0 -translate-y-4 w-0 pointer-events-none"
           }`}
         >
-          <Image
-            src="/logo-lm-gold.png"
-            alt="Ludmila Morais - Advocacia e Consultoria Jurídica"
-            width={372}
-            height={258}
-            className="h-11 w-auto transition-transform duration-300 group-hover:scale-105"
+          <Brand
+            size="sm"
+            className="transition-transform duration-300 group-hover:scale-[1.03]"
             priority
           />
         </a>

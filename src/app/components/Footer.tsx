@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Brand from "./Brand";
 
 export default function Footer() {
   return (
@@ -9,13 +9,7 @@ export default function Footer() {
         <div className="grid lg:grid-cols-3 gap-12 mb-12">
           {/* Logo & Description */}
           <div>
-            <Image
-              src="/logo-lm-gold.png"
-              alt="Ludmila Morais - Advocacia e Consultoria Jurídica"
-              width={372}
-              height={258}
-              className="h-16 w-auto mb-6"
-            />
+            <Brand size="md" className="mb-6" />
             <p className="text-beige-400/40 text-sm leading-relaxed font-[var(--font-inter)] font-light max-w-xs">
               Atuação em Direito Previdenciário, de Família e Sucessões, com
               atuação complementar em Civil e Criminal mediante suporte

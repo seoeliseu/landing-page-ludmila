@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Brand from "./Brand";
 
 export default function Hero() {
   return (
@@ -28,14 +29,7 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-6 py-32 lg:py-0 grid lg:grid-cols-2 gap-12 items-center w-full">
         {/* Text */}
         <div className="space-y-8 animate-fade-in-left">
-          <Image
-            src="/logo-lm-gold.png"
-            alt="Ludmila Morais — Advocacia e Consultoria Jurídica"
-            width={372}
-            height={258}
-            className="h-28 lg:h-32 w-auto -ml-2"
-            priority
-          />
+          <Brand size="lg" className="-ml-2" priority />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light leading-[1.1] tracking-tight">
             Atuação em Direito Previdenciário,{" "}
             <span className="text-gradient font-medium italic">
